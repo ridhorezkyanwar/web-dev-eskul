@@ -1,11 +1,18 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2600&pause=850&color=58A6FF&center=true&vCenter=true&width=520&lines=Build+%E2%80%A2+Test+%E2%80%A2+Improve" alt="Animated banner: Build, Test, Improve" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Web%20Development-0A66C2?style=flat-square" alt="Web Development badge" />
-  <img src="https://img.shields.io/badge/Learning%20Project-6F42C1?style=flat-square" alt="Learning Project badge" />
-</p>
+# Web Dev Eskul — Latihan HTML
 
-"# web-dev-eskul" 
-"# web-dev-eskul" 
-"# web-dev-eskul" 
+Repositori latihan HTML dasar untuk halaman profil sederhana. File utama yang tersedia saat ini adalah `baru.html`.
+
+## Materi yang dicoba
+
+- Struktur halaman HTML dan elemen heading
+- Profil singkat, daftar hobi, dan tabel riwayat sekolah
+- Form input dasar seperti teks, email, nomor telepon, radio button, dan dropdown
+- Penyematan video YouTube
+
+## Jalankan
+
+Tidak perlu build tool atau package manager. Unduh/clone repositori, lalu buka `baru.html` di browser.
+
+## Catatan kelengkapan
+
+Pada snapshot repositori saat ini, `baru.html` merujuk ke beberapa file yang tidak tersedia di root repo: `style.css`, `index.html`, `form.html`, dan `Edogawa-Conan-.jpg`. Akibatnya, stylesheet, tautan navigasi, gambar, atau tujuan form mungkin belum berfungsi seperti yang dimaksud. Tambahkan file-file tersebut atau sesuaikan path di HTML sebelum menganggap halaman ini siap dipublikasikan.
