@@ -1,18 +1,22 @@
-# Web Dev Eskul — Latihan HTML
+# Web Dev Eskul — Profil HTML, CSS, dan JavaScript
 
-Repositori latihan HTML dasar untuk halaman profil sederhana. File utama yang tersedia saat ini adalah `baru.html`.
+Repositori latihan web development yang menampilkan profil singkat, materi yang dipelajari, video embed, dan form demonstrasi.
 
-## Materi yang dicoba
+## Jalankan secara lokal
 
-- Struktur halaman HTML dan elemen heading
-- Profil singkat, daftar hobi, dan tabel riwayat sekolah
-- Form input dasar seperti teks, email, nomor telepon, radio button, dan dropdown
-- Penyematan video YouTube
+Buka `index.html` atau `baru.html` di browser. Tidak diperlukan Node.js, package manager, atau langkah build.
 
-## Jalankan
+## Berkas utama
 
-Tidak perlu build tool atau package manager. Unduh/clone repositori, lalu buka `baru.html` di browser.
+- `index.html` — entry point root yang mengarahkan ke halaman utama.
+- `baru.html` — halaman profil dengan markup semantik dan form latihan.
+- `style.css` — tata letak responsif, fokus keyboard, dan pengaturan reduced motion.
+- `script.js` — pesan formulir di sisi klien dan tahun footer.
 
-## Catatan kelengkapan
+## Batasan form
 
-Pada snapshot repositori saat ini, `baru.html` merujuk ke beberapa file yang tidak tersedia di root repo: `style.css`, `index.html`, `form.html`, dan `Edogawa-Conan-.jpg`. Akibatnya, stylesheet, tautan navigasi, gambar, atau tujuan form mungkin belum berfungsi seperti yang dimaksud. Tambahkan file-file tersebut atau sesuaikan path di HTML sebelum menganggap halaman ini siap dipublikasikan.
+Form hanya menunjukkan pesan demo. Tidak ada backend, email yang dikirim, atau penyimpanan data. Jangan masukkan informasi pribadi sungguhan ke form latihan.
+
+## Catatan
+
+Video memerlukan koneksi internet. Halaman menggunakan YouTube privacy-enhanced embed, tetapi ketersediaan video tetap bergantung pada penyedia eksternal.
