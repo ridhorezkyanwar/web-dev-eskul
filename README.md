@@ -1,5 +1,9 @@
 # Web Dev Eskul — Profil HTML, CSS, dan JavaScript
 
+<p align="center">
+  <a href="https://web-dev-eskul.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-Vercel-000000?style=for-the-badge&logo=vercel" alt="Live demo on Vercel" /></a>
+</p>
+
 Repositori latihan web development yang menampilkan profil singkat, materi yang dipelajari, video embed, dan form demonstrasi.
 
 ## Jalankan secara lokal
