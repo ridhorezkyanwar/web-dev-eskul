@@ -1,91 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RIDHO REZKY</title>
-    <meta name="description" content="lorem ipsum dolor sit amet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="Edogawa-Conan-.jpg">
-    <a href="index.html">BIODATA DIRI</a>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/tiBJUPN1Fxc?si=QcuztQi_-d10cWyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Halaman profil dan latihan web development Ridho Rezky.">
+  <title>Profil Ridho Rezky — Web Development</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
-<body>
-    <main>
-        <!--SECTION-->
-        <section>
-            <div>
-                <h1>halo, saya ridho rezky</h1>
-                <p>anggota eskul web dev di sekolah smkn 6 jakarta</p>
-            </div>
-        </section>
-        <!--GATAU-->
-        <section>
-            <div>
-                <center>
-                    <h2>tentang saya</h2>
-                </center>
-                <img src="Edogawa-Conan-.jpg" width="250px" alt="">
-                <p><strong>Ridho Rezky </strong></p>
-                <p><b>X-RPL</b></p>
+<body id="top">
+  <header class="site-header">
+    <a class="brand" href="#top">Ridho Rezky</a>
+    <nav aria-label="Navigasi utama">
+      <a href="#tentang">Tentang</a>
+      <a href="#belajar">Belajar</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
 
-                <h3>HOBI SAYA</h3>
-                <ul>
-                    <li>NGODING</li>
-                    <lI>MAIN GAMES</lI>
-                    <lI>Ngulik</lI>
-                </ul>
+  <main>
+    <section class="hero" aria-labelledby="judul-utama">
+      <div class="avatar" aria-hidden="true">RR</div>
+      <p class="eyebrow">Latihan Web Development</p>
+      <h1 id="judul-utama">Halo, saya Ridho Rezky.</h1>
+      <p>Pelajar yang tertarik pada pemrograman, web development, dan eksplorasi teknologi.</p>
+      <a class="button" href="#tentang">Kenali saya</a>
+    </section>
 
-                <h3>Riwayat sekolah</h3>
-                <table>
-                    <tr>
-                        <th>Tahun</th>
-                        <th>Nama Sekolah</th>
-                    </tr>
+    <section id="tentang" class="panel" aria-labelledby="tentang-title">
+      <h2 id="tentang-title">Tentang saya</h2>
+      <p>Saya belajar membangun halaman web menggunakan HTML, CSS, dan JavaScript.</p>
+      <h3>Hobi</h3>
+      <ul class="hobbies">
+        <li>Ngoding</li>
+        <li>Main gim</li>
+        <li>Eksplorasi teknologi</li>
+      </ul>
+      <h3>Riwayat sekolah</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">Tahun</th><th scope="col">Nama sekolah</th></tr></thead>
+          <tbody><tr><td>2025</td><td>SMKN 6 Jakarta</td></tr></tbody>
+        </table>
+      </div>
+    </section>
 
-                    <tr>
-                        <td>2025</td>
-                        <td>Smkn 6 jakarta</td>
-                    </tr>
-                </table>
+    <section id="belajar" class="panel" aria-labelledby="belajar-title">
+      <h2 id="belajar-title">Materi yang sedang dipelajari</h2>
+      <p>Contoh video pembelajaran web development:</p>
+      <div class="video-frame">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/tiBJUPN1Fxc"
+          title="Video pembelajaran web development"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </section>
 
-                 <h3>Hubungi saya</h3>
-                <form action="form.html">
-                    <label for="username">username</label>
-                    <br>    
-                    <input type="text" name="username" id="username" placeholder="masukkan nama anda" required>  
-                    <br>
+    <section id="kontak" class="panel" aria-labelledby="kontak-title">
+      <h2 id="kontak-title">Formulir latihan</h2>
+      <p>Form ini hanya demonstrasi di browser. Data tidak dikirim ke server dan tidak disimpan.</p>
+      <form id="contact-form">
+        <label for="nama">Nama</label>
+        <input id="nama" name="nama" type="text" autocomplete="name" maxlength="80" required>
 
-                    <label for="email">email</label>
-                    <br>
-                    <input type="email" placeholder="masukkan email anda" required>
-                    <br>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" maxlength="254" required>
 
-                    <label for="nomer">nomer telepon</label>
-                    <br>
-                    <input type="number" name="number" id="number" placeholder="masukkan nomer telepon anda" required>
-                    <br>    
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan" name="pesan" rows="4" maxlength="1000" required></textarea>
 
-                    <label> jenis kelamin</label>
-                    <br>
-                     <input type="radio">laki laki  
-                    <input type="radio" name="js" id="js" value="perempuan"> <label for="p">perempuan</label>
-                    <br><br>
-                    <label for="">Agama</label>
-                    <select required>
-                        <option value="islam">islam</option>
-                        <option value="kristen">kristen</option>
-                        <option value="hindu">hindu</option>
-                        <option value="buddha">buddha</option>
-                        <option value="konghucu">konghucu</option>
-                    </select>
+        <button class="button" type="submit">Kirim contoh</button>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
 
-                    <button>SUBMIT</button>
-
-                </form>
-            </div>
-        </section>
-    </main>
+  <footer><p>&copy; <span id="year">2026</span> Ridho Rezky. Halaman latihan web development.</p></footer>
 </body>
 </html>
